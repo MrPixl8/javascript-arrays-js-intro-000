@@ -3,7 +3,7 @@ var chocolateBars =
 
 chocolateBars[1] = "foo"
 
-function addElementToBeginningOfArray(){
-
+function addElementToBeginningOfArray(array, element){
+    return [element, ...array]
 
 }
